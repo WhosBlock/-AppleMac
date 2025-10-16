@@ -6,7 +6,7 @@ privateServerLink := "PRIVATE SERVER LINK HERE"
 rejoinIntervalMs := 7200000   ; 2 hours
 macroStartDelayMs := 20000     ; Delay before macro starts (20 seconds)
 robloxProcess := "RobloxPlayerBeta.exe"
-browserProcess := "brave.exe"
+browserProcess := "chrome.exe"  ; Change to "msedge.exe", "firefox.exe", etc.
 
 LeftX := 200
 RightX := 1200
@@ -186,4 +186,5 @@ ProcessExist(Name) {
 }
 
 Persistent
+
 
