@@ -2,7 +2,7 @@
 #SingleInstance Force
 
 ; === CONFIGURATION ===
-privateServerLink := "https://www.roblox.com/share?code=2a04e742a8d8a64ea94c73f41c66ac5b&type=Server"
+privateServerLink := "PRIVATE SERVER LINK HERE"
 rejoinIntervalMs := 7200000   ; 2 hours
 macroStartDelayMs := 20000     ; Delay before macro starts (20 seconds)
 robloxProcess := "RobloxPlayerBeta.exe"
@@ -186,3 +186,4 @@ ProcessExist(Name) {
 }
 
 Persistent
+
